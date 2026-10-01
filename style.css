@@ -1,0 +1,38 @@
+#keys {
+    display: grid;
+    grid-template-columns:150px 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 30vw;
+    height: 40vh;
+
+}
+body {
+    width: 500px;
+}
+.display {
+   height: 70px;
+   width: 30vw;
+   border: 5px solid rgba(0, 0, 0, 0.744);
+   background-color: rgba(240, 248, 255, 0.4);
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+button {
+    border-radius: 50%;
+    font-size: 20px;
+}
+.orange {
+    background-color: #ffa500;
+}
+.red {
+    background-color: red;
+}
+button {
+    background-color: rgba(243, 245, 220, 0.315);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
